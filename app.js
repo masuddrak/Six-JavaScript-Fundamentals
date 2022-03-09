@@ -27,5 +27,14 @@ else{
 // Array index,length,push
 const numbers=[25,45,7,56,8]
 for(let i=0; i<numbers.length; i++){
-    console.log(numbers[i])
+    // console.log(numbers[i])
 }
+
+
+// function
+function multiplay(num1,num2){
+    const total=num1+num2;
+    return total;
+}
+const result=multiplay(5,8)
+console.log(result)
