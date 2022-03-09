@@ -14,4 +14,12 @@ else{
     // console.log('number is not equal 5')
 }
 // multiple condition &&,||
-
+if(number===4 && name==='rakib'){
+    console.log('boat a maching')
+}
+else if(number===3 || name==='masud'){
+    console.log('just name is maching')
+}
+else{
+    console.log('not a mCHING')
+}
