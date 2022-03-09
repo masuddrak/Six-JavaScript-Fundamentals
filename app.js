@@ -31,10 +31,21 @@ for(let i=0; i<numbers.length; i++){
 }
 
 
-// function
+//5 function
 function multiplay(num1,num2){
     const total=num1+num2;
     return total;
 }
 const result=multiplay(5,8)
-console.log(result)
+// console.log(result)
+
+//6 create a object
+const student={
+    name:'Masud Rana',
+    roll:555,
+    result:'GPA:5'
+}
+const output='result'
+// console.log(student.result)
+// console.log(student['result'])
+console.log(student[output])
